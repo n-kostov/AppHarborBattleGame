@@ -1,0 +1,9 @@
+C:\Users\virusa\Documents\GitHub\BattleGame\BattleGame.WebClient\bin\x64\SQLite.Interop.dll
+C:\Users\virusa\Documents\GitHub\BattleGame\BattleGame.WebClient\bin\x86\SQLite.Interop.dll
+C:\Users\virusa\Documents\GitHub\BattleGame\BattleGame.WebClient\bin\BattleGame.WebClient.dll
+C:\Users\virusa\Documents\GitHub\BattleGame\BattleGame.WebClient\bin\BattleGame.WebClient.pdb
+C:\Users\virusa\Documents\GitHub\BattleGame\BattleGame.WebClient\bin\System.Data.SQLite.dll
+C:\Users\virusa\Documents\GitHub\BattleGame\BattleGame.WebClient\bin\System.Data.SQLite.Linq.dll
+C:\Users\virusa\Documents\GitHub\BattleGame\BattleGame.WebClient\obj\Release\BattleGame.WebClient.csprojResolveAssemblyReference.cache
+C:\Users\virusa\Documents\GitHub\BattleGame\BattleGame.WebClient\obj\Release\BattleGame.WebClient.dll
+C:\Users\virusa\Documents\GitHub\BattleGame\BattleGame.WebClient\obj\Release\BattleGame.WebClient.pdb
