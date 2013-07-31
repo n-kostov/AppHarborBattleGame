@@ -14,7 +14,7 @@ body {
     font-size: 20px;
     font-family: 'Arial Rounded MT';
     height: 36px;
-    width: 120px;
+    width: 9%;
     border-radius: 15px;
     background-color: rgba(128, 128, 128, 0.2); }
 
@@ -39,7 +39,7 @@ body {
     padding-left: 15px; }
 
 .login-register-container {
-  width: 150px;
+  width: 10%;
   padding: 10px;
   margin-top: 40px;
   background-color: rgba(168, 168, 168, 0.7);
@@ -47,10 +47,12 @@ body {
   border-radius: 5px; }
 
 .login-register-container input {
-  margin: 5px 0 5px 0; }
+  margin: 5px 0 5px 0;
+  width: 90%;
+   }
 
 .login-register-container button {
-  width: 70px;
+  width: 50%;
   font-size: 14px;
   font-family: 'Arial Rounded MT';
   margin-top: 5px;
@@ -79,7 +81,7 @@ body {
   margin: 10px auto 0 auto;
   padding: 0 10px 10px 10px;
   display: block;
-  width: 600px; }
+  width: 45%; }
   #messages-list ul {
     height: 110px;
     margin: 0 40px 0 0;
@@ -112,7 +114,7 @@ body {
   position: absolute;
   top: 50px;
   left: 5px;
-  width: 300px;
+  width: 22%;
   min-height: 400px; }
   #open-games-list ul li {
     font-size: 18px;
@@ -123,7 +125,7 @@ body {
   position: absolute;
   top: 50px;
   left: 1040px;
-  width: 300px;
+  width: 22%;
   min-height: 400px; }
   #active-games-list ul li {
     font-size: 18px;
@@ -134,9 +136,9 @@ body {
   margin: 50px auto 0 auto;
   padding: 0 10px 10px 10px;
   display: block;
-  width: 600px; }
+  width: 45%; }
   #create-game-container input {
-    width: 90px;
+    width: 20%;
     border-radius: 5px;
     margin: 0 10px 0 5px; }
 
@@ -144,7 +146,7 @@ body {
   margin: 10px auto 0 auto;
   padding: 0 10px 10px 10px;
   display: block;
-  width: 600px;
+  width: 45%;
   min-height: 140px; }
   #game-state-gridview h2 {
     margin: 15px 25px;
@@ -153,8 +155,8 @@ body {
     margin: 0 auto;
     border-collapse: collapse; }
     #game-state-gridview table tr td {
-      width: 50px;
-      height: 50px;
+      width: 3em;
+      height: 3em;
       border: 1px solid black; }
       #game-state-gridview table tr td span {
         background-repeat: no-repeat;
@@ -169,8 +171,8 @@ body {
         text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white; }
 
 #selected-div {
-  width: 50px;
-  height: 50px;
+  width: 3em;
+  height: 3em;
   background-color: rgba(176, 216, 10, 0.5);
   display: none; }
 
