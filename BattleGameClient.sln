@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleGame.Server", "BattleGame.Server\BattleGame.Server.csproj", "{696A232F-3494-48D2-ACB3-9F5736900242}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleGame.WebClient", "BattleGame.WebClient\BattleGame.WebClient.csproj", "{38548EB6-67F4-49C7-97CC-95FDFE5222FB}"
 EndProject
 Global
