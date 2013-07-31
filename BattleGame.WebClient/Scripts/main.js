@@ -13,7 +13,7 @@ String.prototype.escape = function () {
 };
 
 $(function () {
-    var serviceRoot = "battlegameserver-1.apphb.com/";
+    var serviceRoot = "https://battlegameserver-1.apphb.com/api/";
 
     var localPersister = BullsAndCows.persisters.getPersister(serviceRoot);
     
