@@ -103,7 +103,8 @@ body {
   background-color: #a8a8a8;
   padding: 10px 10px 30px 10px;
   display: inline-block;
-  min-height: 140px; }
+  min-height: 140px;
+  max-height: 80%; }
   #scores-gridview h2 {
     margin: 15px 25px;
     text-align: center; }
@@ -158,7 +159,7 @@ body {
       width: 3em;
       height: 3em;
       border: 1px solid black; }
-      #game-state-gridview table tr td span {
+      #game-state-gridview table tr td > span {
         background-repeat: no-repeat;
         background-size: 100% auto;
         height: 100%;
@@ -169,6 +170,24 @@ body {
         padding-right: 3px;
         color: black;
         text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white; }
+              #game-state-gridview table tr td .mode{
+                height: 100%;
+                display: inline;
+                float: left;
+                vertical-align: top;
+                font-size: 12px;
+                padding-left: 3px;
+                color: black;
+                text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white; }
+                #game-state-gridview table tr td .hitPoints{
+                  height: 100%;
+                  display: inline;
+                  float: right;
+                  vertical-align: top;
+                  font-size: 12px;
+                  padding-right: 3px;
+                  color: black;
+                  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white; }
 
 #selected-div {
   width: 3em;

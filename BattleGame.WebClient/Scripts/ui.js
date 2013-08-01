@@ -327,16 +327,16 @@ BullsAndCows.ui = (function () {
                             defendMode = "D";
                         }
                         if (currRow[col].type == "warrior" && currRow[col].owner == "red") {
-                            resultHtml += '<td id="' + row + '-' + col + '"><span id="' + currRow[col].id + '" style="background-image: url(../images/warriorRed.png)">' + defendMode + '</span> </td>';
+                            resultHtml += '<td id="' + row + '-' + col + '"><span id="' + currRow[col].id + '" style="background-image: url(../images/warriorRed.png)"><span class="mode">' + defendMode + '</span><span class="hitPoints">' + currRow[col].hitPoints + '</span></span> </td>';
                         }
                         else if (currRow[col].type == "ranger" && currRow[col].owner == "red") {
-                            resultHtml += '<td id="' + row + '-' + col + '"><span id="' + currRow[col].id + '" style="background-image: url(../images/archerRed.png)">' + defendMode + '</span> </td>';
+                            resultHtml += '<td id="' + row + '-' + col + '"><span id="' + currRow[col].id + '" style="background-image: url(../images/archerRed.png)"><span class="mode">' + defendMode + '</span><span class="hitPoints">' + currRow[col].hitPoints + '</span></span> </td>';
                         }
                         else if (currRow[col].type == "warrior" && currRow[col].owner == "blue") {
-                            resultHtml += '<td id="' + row + '-' + col + '"><span id="' + currRow[col].id + '" style="background-image: url(../images/warriorBlue.png)">' + defendMode + '</span> </td>';
+                            resultHtml += '<td id="' + row + '-' + col + '"><span id="' + currRow[col].id + '" style="background-image: url(../images/warriorBlue.png)"><span class="mode">' + defendMode + '</span><span class="hitPoints">' + currRow[col].hitPoints + '</span></span> </td>';
                         }
                         else if (currRow[col].type == "ranger" && currRow[col].owner == "blue") {
-                            resultHtml += '<td id="' + row + '-' + col + '"><span id="' + currRow[col].id + '" style="background-image: url(../images/archerBlue.png)">' + defendMode + '</span> </td>';
+                            resultHtml += '<td id="' + row + '-' + col + '"><span id="' + currRow[col].id + '" style="background-image: url(../images/archerBlue.png)"><span class="mode">' + defendMode + '</span><span class="hitPoints">' + currRow[col].hitPoints + '</span></span> </td>';
                         }
                     }
                     else{

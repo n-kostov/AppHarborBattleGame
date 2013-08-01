@@ -124,6 +124,8 @@ BullsAndCows.controller = (function () {
             this._fieldData;
             this.unitId = -1;
             this.targetPosition = {};
+
+
         },
         startGame: function () {
             this.stopGame();
@@ -277,9 +279,9 @@ BullsAndCows.controller = (function () {
 
         updateCurrentGame: function () {
             var self = this;
-            
+
             this.dataPersister.games.field(this._currentGameId).then(function (gameData) {
-                console.log(gameData);
+                console.log(gameData);            
                 self._fieldData = gameData;
                 self.processCurrentGameData(gameData);
             }, (function (error) {
@@ -390,7 +392,7 @@ BullsAndCows.controller = (function () {
             for (var i in this._gameUserUnits) {
                 var currUserUnits = this._gameUserUnits[i];
                 position = currUserUnits.position;
-                battleTable[position.x][position.y] = currUserUnits;            
+                battleTable[position.x][position.y] = currUserUnits;          
             }
 
             for (var i in this._gameOpponentUnits) {
