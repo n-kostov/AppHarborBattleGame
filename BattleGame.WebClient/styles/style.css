@@ -114,7 +114,7 @@ body {
   position: absolute;
   top: 50px;
   left: 5px;
-  width: 22%;
+  width: 20%;
   min-height: 400px; }
   #open-games-list ul li {
     font-size: 18px;
@@ -124,8 +124,8 @@ body {
 #active-games-list {
   position: absolute;
   top: 50px;
-  left: 1040px;
-  width: 22%;
+  left: 75%;
+  width: 20%;
   min-height: 400px; }
   #active-games-list ul li {
     font-size: 18px;
