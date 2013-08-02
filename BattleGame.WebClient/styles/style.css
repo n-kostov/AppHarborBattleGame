@@ -149,6 +149,14 @@ body {
   display: block;
   width: 45%;
   min-height: 140px; }
+  #game-state-gridview .red {
+    color: red;
+    display: block;
+  }
+  #game-state-gridview .blue {
+    color: blue;
+    display: : block;
+  }
   #game-state-gridview h2 {
     margin: 15px 25px;
     text-align: center; }

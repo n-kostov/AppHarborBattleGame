@@ -401,7 +401,7 @@ BullsAndCows.controller = (function () {
                 battleTable[position.x][position.y] = currOpponentUnits;
             }
 
-            this.battleControl.mainHeader = "Game \"" + gameData.title + "\"";
+            this.battleControl.mainHeader = "Game \"" + gameData.title + "\"<span class=" + gameData.inTurn + ">It is " + gameData.inTurn + " player turn!</span>";
             this.battleControl.changeData(battleTable, userColor);
 
             if (gameData.inTurn == userColor) {
